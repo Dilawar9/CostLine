@@ -1,0 +1,22 @@
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+.wrapper {
+    display: flex;
+    justify-content: space-between; /* Distribute items evenly */
+    align-items: flex-start; /* Align items to the top */
+    height: 100vh; /* Full viewport height */
+    padding: 20px;
+}
+.heading {
+    max-width: 50%; /* Adjust width as needed */
+    margin-right: 20px; /* Spacing between heading and text */
+}
+.bottom-text {
+    flex: 1; /* Take remaining space */
+    margin-left: 20px; /* Spacing between heading and text */
+}
+.bottom-text p {
+    margin-bottom: 10px; /* Spacing between paragraphs */
+}
